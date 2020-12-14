@@ -1,0 +1,46 @@
+
+
+.navigation {
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    right: 0px;
+    background-color: #211A3E;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 35px;
+    list-style: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.main_img {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.main_name {
+    position: absolute;
+    top: 210px;
+    left: 305px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.Social {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 230px;
+    right: 30px;
+    top: 200px;
+    justify-content: space-around;
+}
