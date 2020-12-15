@@ -6,8 +6,8 @@ import About from './pages/aboutInfo';
 import SButton from './pages/SButton';
 
 function App() {
-  const Fname="Your";
-  const Lname="Name";
+  const Fname="YOUR";
+  const Lname="NAME";
   return (
     <div className="App">
       <div className="FirstHalf">
