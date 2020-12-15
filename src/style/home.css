@@ -39,8 +39,84 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 230px;
-    right: 30px;
+    height: 260px;
+    right: 50px;
     top: 200px;
     justify-content: space-around;
+}
+
+.aboutImg {
+    background-color: white;
+    justify-content: center;
+    width: 230px;
+    height: 180px;
+    padding: 15px 30px 30px 30px;
+}
+
+.aboutTitle {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+
+.aboutInfo {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+}
+
+.image {
+    width: 290px;
+}
+
+.line {
+    align-items: center;
+    width: 150px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 75px;
+    padding-top: 15px;
+}
+
+.imgBorder {
+    width: 290px;
+    height: 230px;
+    border-radius: 20px 20px 0px 0px;
+    background: white;
+    padding-top: 20px;
+}
+
+.texts {
+    background-color: #1A1530;
+    height: 180px;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 20px;
+}
+
+.SButton {
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.Skill {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 5px solid white;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Skill:hover {
+    background-color: #211A3E;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }

@@ -5,3 +5,24 @@
   margin: 0px;
   padding: 0px;
 }
+
+.FirstHalf {
+  height: 100vh;
+}
+
+.SecondHalf {
+  height: auto;
+  background-color: #211A3E;
+  color: white;
+}
+
+.infoCards {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  justify-content: space-around;
+}
+
+/* .card {
+  width: 30px;
+} */
