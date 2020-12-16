@@ -19,7 +19,7 @@ function Homepage() {
             <About image='front_end' title='Front-End Development' info='With my experience of HTML, CSS and Javascript frameworks, I can build the website you’ve always dreamed of.'/>
             <About image='back_end' title='Back-End Development' info='Need to write or review back-end codes? I can do that for you too.'/>
           </div>
-          <SButton value="Skills" />
+          <SButton value="Skills" url="/skills" />
         </div>
       </div>
     );

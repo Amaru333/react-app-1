@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 function SButton(props) {
     return (
         <div className="SButton">
-            <button className="Skill">{props.value}</button>
+            <a href={props.url}><button className="Skill">{props.value}</button></a>
         </div>
     )
 }

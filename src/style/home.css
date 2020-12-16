@@ -104,6 +104,10 @@
     padding-bottom: 40px;
 }
 
+button a {
+    text-decoration: none;
+  }
+
 .Skill {
     height: 35px;
     width: 150px;
@@ -126,3 +130,7 @@ ul a {
     color: none;
     text-decoration: none;
 }
+
+/* .SButton {
+    color: white;
+} */
