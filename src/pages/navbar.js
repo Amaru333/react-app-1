@@ -1,13 +1,21 @@
 import '../style/home.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <div className="Navbar">
       <nav class="navigation">
         <ul class="nav-links">
-          <li><a class="navlink" href="#">Home</a></li>
-          <li><a class="navlink" href="#">Skills</a></li>
-          <li><a class="navlink" href="#">Contact</a></li>
+          <Link to="/" style={{textDecoration: 'none'}}>
+            <li class="navlink">Home</li>
+          </Link>
+          <Link to="/skills">
+            <li class="navlink">Skills</li>
+          </Link>
+
+          <Link to="/contact">
+            <li class="navlink">Contact</li>
+          </Link>
         </ul>
       </nav>
     </div>
